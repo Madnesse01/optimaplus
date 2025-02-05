@@ -6,9 +6,21 @@
   <title>Информационные боксы</title>
   <style>
     body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #282828;
+      color: white;
+    }
+    .header {
+      text-align: center;
+      font-size: 36px;
+      padding: 20px;
+      background-color: #333;
+    }
+    .container {
       display: flex;
       justify-content: space-between;
-      margin: 0;
       padding: 20px;
     }
     .box {
@@ -20,12 +32,16 @@
       justify-content: center;
       align-items: center;
       text-align: center;
+      color: black;
     }
   </style>
 </head>
 <body>
-  <div class="box">Слева</div>
-  <div class="box">По центру</div>
-  <div class="box">Справа</div>
+  <div class="header">OPTIMA+</div>
+  <div class="container">
+    <div class="box">Слева</div>
+    <div class="box">По центру</div>
+    <div class="box">Справа</div>
+  </div>
 </body>
 </html>
